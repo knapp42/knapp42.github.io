@@ -1,0 +1,1 @@
+docker run -it -p 1883:1883 --rm --name mqtt -v /home/pi/Desktop/iot/mqtt/mounts/mosquitto.conf:/mosquitto/config/mosquitto.conf -v /home/pi/Desktop/iot/mqtt/mounts/data:/mosquitto/data -v /home/pi/Desktop/iot/mqtt/mounts/log:/mosquitto/log -v /home/pi/Desktop/iot/mqtt/mounts/passwordfile:/etc/mosquitto/passwordfile eclipse-mosquitto
